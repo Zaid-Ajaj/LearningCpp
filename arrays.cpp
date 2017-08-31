@@ -32,17 +32,9 @@ int product(int numbers[]) {
     for(int i = 0; i < arrayLength(numbers); i++) {
         result = result * numbers[i];
     }
-
     return result;
 }
 
-int factorial(int n) {
-    int numbers[n - 1];
-    for(int i = 0; i < n; i++) {
-        numbers[i] = i;
-    }
-    return product(numbers);
-}
 
 int main() 
 {
@@ -61,9 +53,5 @@ int main()
     int totalSum = sumOf(otherNumbers);
 
     cout << "Total sum is " << totalSum << endl;
-
-
-    int fiveFactorial = factorial(5);
-    cout << "Five factorial is " << fiveFactorial;
     return 0;
 }
