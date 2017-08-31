@@ -13,6 +13,5 @@ int main()
     } else {
         cout << "It is not finished" << endl;
     }
-
     return 0;
 }
